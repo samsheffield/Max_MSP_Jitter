@@ -31,12 +31,40 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 69.5, 382.0, 68.0, 20.0 ],
+					"text" : "start audio "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 59.0, 420.0, 89.0, 20.0 ],
+					"text" : "loadmess start"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-62",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 553.0, 445.0, 33.0 ],
+					"patching_rect" : [ 186.0, 552.0, 445.0, 33.0 ],
 					"text" : "Use with Soundflower (64ch) and set number of device channels to 4 in Audacity.\nSoundflowerbed can also be used to monitor the audio."
 				}
 
@@ -50,7 +78,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 489.0, 244.0, 20.0 ],
+					"patching_rect" : [ 305.0, 488.0, 244.0, 20.0 ],
 					"text" : "output split into 4 channels (instead of 2)"
 				}
 
@@ -62,7 +90,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 340.0, 359.0, 20.0, 20.0 ]
+					"patching_rect" : [ 419.0, 358.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -73,7 +101,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 251.0, 359.0, 20.0, 20.0 ]
+					"patching_rect" : [ 330.0, 358.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -84,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 163.0, 359.0, 20.0, 20.0 ]
+					"patching_rect" : [ 242.0, 358.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -95,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 432.0, 359.0, 20.0, 20.0 ]
+					"patching_rect" : [ 511.0, 358.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -108,7 +136,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 398.0, 219.0, 81.0, 20.0 ],
+					"patching_rect" : [ 477.0, 218.0, 81.0, 20.0 ],
 					"text" : "random 5000"
 				}
 
@@ -121,7 +149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 107.0, 194.0, 20.0, 20.0 ]
+					"patching_rect" : [ 186.0, 193.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -134,7 +162,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 376.0, 257.0, 71.0, 20.0 ],
+					"patching_rect" : [ 455.0, 256.0, 71.0, 20.0 ],
 					"text" : "metro 1500"
 				}
 
@@ -148,7 +176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 284.0, 257.0, 71.0, 20.0 ],
+					"patching_rect" : [ 363.0, 256.0, 71.0, 20.0 ],
 					"text" : "metro 8500"
 				}
 
@@ -162,7 +190,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 195.0, 257.0, 71.0, 20.0 ],
+					"patching_rect" : [ 274.0, 256.0, 71.0, 20.0 ],
 					"text" : "metro 3700"
 				}
 
@@ -176,7 +204,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 107.0, 257.0, 71.0, 20.0 ],
+					"patching_rect" : [ 186.0, 256.0, 71.0, 20.0 ],
 					"text" : "metro 2000"
 				}
 
@@ -190,7 +218,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 297.0, 34.0, 18.0 ],
+					"patching_rect" : [ 455.0, 296.0, 34.0, 18.0 ],
 					"text" : "start"
 				}
 
@@ -204,7 +232,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 284.0, 297.0, 34.0, 18.0 ],
+					"patching_rect" : [ 363.0, 296.0, 34.0, 18.0 ],
 					"text" : "start"
 				}
 
@@ -218,7 +246,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 297.0, 34.0, 18.0 ],
+					"patching_rect" : [ 274.0, 296.0, 34.0, 18.0 ],
 					"text" : "start"
 				}
 
@@ -232,7 +260,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.0, 297.0, 34.0, 18.0 ],
+					"patching_rect" : [ 186.0, 296.0, 34.0, 18.0 ],
 					"text" : "start"
 				}
 
@@ -246,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 376.0, 331.0, 75.0, 20.0 ],
+					"patching_rect" : [ 455.0, 330.0, 75.0, 20.0 ],
 					"text" : "play~ quack"
 				}
 
@@ -259,7 +287,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 376.0, 415.0, 75.0, 32.0 ]
+					"patching_rect" : [ 455.0, 414.0, 75.0, 32.0 ]
 				}
 
 			}
@@ -272,7 +300,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 284.0, 331.0, 75.0, 20.0 ],
+					"patching_rect" : [ 363.0, 330.0, 75.0, 20.0 ],
 					"text" : "play~ quack"
 				}
 
@@ -285,7 +313,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 284.0, 415.0, 75.0, 32.0 ]
+					"patching_rect" : [ 363.0, 414.0, 75.0, 32.0 ]
 				}
 
 			}
@@ -298,7 +326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 195.0, 331.0, 75.0, 20.0 ],
+					"patching_rect" : [ 274.0, 330.0, 75.0, 20.0 ],
 					"text" : "play~ quack"
 				}
 
@@ -311,7 +339,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 195.0, 415.0, 75.0, 32.0 ]
+					"patching_rect" : [ 274.0, 414.0, 75.0, 32.0 ]
 				}
 
 			}
@@ -324,7 +352,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 275.0, 81.0, 150.0, 20.0 ],
+					"patching_rect" : [ 354.0, 80.0, 150.0, 20.0 ],
 					"text" : "load quack sample at start"
 				}
 
@@ -338,7 +366,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 107.0, 331.0, 75.0, 20.0 ],
+					"patching_rect" : [ 186.0, 330.0, 75.0, 20.0 ],
 					"text" : "play~ quack"
 				}
 
@@ -352,7 +380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 98.0, 81.0, 149.0, 20.0 ],
+					"patching_rect" : [ 177.0, 80.0, 149.0, 20.0 ],
 					"text" : "loadmess read quack.wav"
 				}
 
@@ -366,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 98.0, 128.0, 83.0, 20.0 ],
+					"patching_rect" : [ 177.0, 127.0, 83.0, 20.0 ],
 					"text" : "buffer~ quack"
 				}
 
@@ -379,7 +407,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 486.0, 77.0, 20.0 ],
+					"patching_rect" : [ 186.0, 485.0, 77.0, 20.0 ],
 					"text" : "dac~ 1 2 3 4"
 				}
 
@@ -591,7 +619,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 107.0, 415.0, 75.0, 32.0 ]
+					"patching_rect" : [ 186.0, 414.0, 75.0, 32.0 ]
 				}
 
 			}
@@ -619,7 +647,7 @@
 					"destination" : [ "obj-33", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 385.5, 474.0, 174.5, 474.0 ],
+					"midpoints" : [ 464.5, 473.0, 253.5, 473.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -629,7 +657,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 116.5, 466.0, 116.5, 466.0 ],
+					"midpoints" : [ 195.5, 465.0, 195.5, 465.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -729,7 +757,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 116.5, 241.5, 116.5, 241.5 ],
+					"midpoints" : [ 195.5, 240.5, 195.5, 240.5 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -739,7 +767,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 116.5, 241.5, 204.5, 241.5 ],
+					"midpoints" : [ 195.5, 240.5, 283.5, 240.5 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -749,7 +777,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 116.5, 233.5, 293.5, 233.5 ],
+					"midpoints" : [ 195.5, 232.5, 372.5, 232.5 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -759,7 +787,7 @@
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 116.5, 224.5, 385.5, 224.5 ],
+					"midpoints" : [ 195.5, 223.5, 464.5, 223.5 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -886,7 +914,7 @@
 					"destination" : [ "obj-43", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 441.5, 394.0, 491.5, 394.0, 491.5, 201.0, 407.5, 201.0 ],
+					"midpoints" : [ 520.5, 393.0, 570.5, 393.0, 570.5, 200.0, 486.5, 200.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -896,7 +924,7 @@
 					"destination" : [ "obj-33", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 204.5, 458.0, 135.833328, 458.0 ],
+					"midpoints" : [ 283.5, 457.0, 214.833328, 457.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -949,6 +977,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 68.5, 462.0, 195.5, 462.0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -980,7 +1018,7 @@
 					"destination" : [ "obj-33", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 293.5, 466.0, 155.166672, 466.0 ],
+					"midpoints" : [ 372.5, 465.0, 234.166672, 465.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
